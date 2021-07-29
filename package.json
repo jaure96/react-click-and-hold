@@ -1,6 +1,6 @@
 {
   "name": "react-click-and-hold",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jaure96/react-click-and-hold/issues"
   },
-  "homepage": "https://github.com/jaure96/react-click-and-hold#readme"
+  "homepage": "https://github.com/jaure96/react-click-and-hold#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
 }
