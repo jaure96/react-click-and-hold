@@ -36,7 +36,7 @@ const ClickAndHold = ({ id, elmType = 'div', timeOut = 500, onClick = () => {}, 
     setTimer(null)
     onHold(evt)
   }
-  return React.createElement(elmType, { onPointerDown, onPointerUp, onPointerMove, ...other }, ...children)
+  return React.createElement(elmType, { onPointerDown, onPointerUp, onPointerMove, other }, ...children)
 }
 
 ClickAndHold.propTypes = {
